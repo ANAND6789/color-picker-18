@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Color Picker</title>
+    
+
+
+    <!-- favicon -->
+    <link href="favicon (1).ico" rel="icon" />
+
+
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <!-- heading-section -->
+    <div id="colorPickerContainer" class="container">
+        <div>
+            <h1 class="m-3">Color Picker</h1>
+
+
+
+    <!-- button-section  -->
+            <div class="text-center">
+                <button id="button1" onmouseover ="one()">
+                <span>#e0e0e0</span>
+                </button>
+                <button id="button2" onmouseover="two()">
+                <span>#6fcf97</span> 
+                </button>
+                <button id="button3" onmouseover="three()">
+                <span>#56cbf2</span> 
+                </button>
+                <button id="button4" onmouseover="four()">
+                <span> #bb6bd9 </span>
+                </button>
+            </div>
+        </div>
+
+
+
+    <!-- paragraph-section -->
+        <p class="m-3 backgroundColorParagraph">Background Color: <span id="selectedColorHexCode">#fffff</span>
+        </p>
+        <p class="text-center">Try clicking on one of the colors above to change the background color of the page!
+        </p>
+
+    </div>
+    
+    <!-- script-tag -->
+    <script src="script.js"></script>
+
+</body>
+</html>
